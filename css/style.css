@@ -9,11 +9,6 @@ body {
 	font-family: Arial;
 }
 
-#map, #settings {
-    margin: 0;
-    padding: 0;
-}
-
 #app {
 	display: flex;
 }
@@ -23,8 +18,9 @@ body {
 }
 
 #settings {
+    margin: 0;
 	width: 20%;
-	padding: 0px;
+    padding: 0;
 }
 
 #settings > div {
